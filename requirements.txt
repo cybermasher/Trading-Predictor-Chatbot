@@ -1,6 +1,5 @@
-numpy 
-pandas 
-scikit-learn 
-tensorflow 
-matplotlib
-optuna
+requests
+tweepy
+pandas
+scikit-learn
+rasa-sdk
