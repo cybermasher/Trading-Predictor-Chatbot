@@ -1,0 +1,119 @@
+{
+  "schema": 1,
+  "mode": "projects",
+  "created_at": "2026-11-06T21:53:19.262250+00:00",
+  "files": [
+    {
+      "path": "chat.py",
+      "bytes": 4713,
+      "sha256": "066c791d4dda9d89533900eac789a0011cfbf5deb91c812659a3d13e7d5bddd2",
+      "mode": 436,
+      "parts": []
+    },
+    {
+      "path": "tradingbot.py",
+      "bytes": 8930,
+      "sha256": "7dea9080375543782c4a08af856ea0836f43e406ad27507e00ea04217153661b",
+      "mode": 436,
+      "parts": []
+    },
+    {
+      "path": "scripts/prepare_data.py",
+      "bytes": 546,
+      "sha256": "ff01d29e66d5814c9bee7d9088ac8e266c4a3be004cd456e7a7fce04ccf8bede",
+      "mode": 436,
+      "parts": []
+    },
+    {
+      "path": "data/options-trade-ideas.csv",
+      "bytes": 605660,
+      "sha256": "630f1e8f1be51205635b235cb0a1f996da6f2fb84cf6c542a7253eb22081049d",
+      "mode": 436,
+      "parts": []
+    },
+    {
+      "path": "db/e2a16f34-ab51-4605-abc4-931dac8a0204/data_level0.bin",
+      "bytes": 3212000,
+      "sha256": "983b8ea2ccbab7ff3a6f6365379412934ff93dc96f1a122333278bd315e449bc",
+      "mode": 436,
+      "parts": []
+    },
+    {
+      "path": "db/e2a16f34-ab51-4605-abc4-931dac8a0204/header.bin",
+      "bytes": 100,
+      "sha256": "0ec6df10978b056a10062ed99efeef2702fa4a1301fad702b53dd2517103c746",
+      "mode": 436,
+      "parts": []
+    },
+    {
+      "path": "db/e2a16f34-ab51-4605-abc4-931dac8a0204/length.bin",
+      "bytes": 4000,
+      "sha256": "e1495f5be653b8297404dc262ad3fdd086c7417481d1f9bf8dc4abddfe12df15",
+      "mode": 436,
+      "parts": []
+    },
+    {
+      "path": "db/e2a16f34-ab51-4605-abc4-931dac8a0204/link_lists.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mode": 436,
+      "parts": []
+    },
+    {
+      "path": "images/logo.jpg",
+      "bytes": 628273,
+      "sha256": "afab3a374b344f4bf6b7dc9f8778a68d79d379ea66cdabe45ceb0945b82c71e0",
+      "mode": 436,
+      "parts": []
+    },
+    {
+      "path": "images/logo.png",
+      "bytes": 408630,
+      "sha256": "0258148c92abe5217408f88efd9ad471e58fd4e540c12b6997e6d707ef0919ff",
+      "mode": 436,
+      "parts": []
+    },
+    {
+      "path": "images/logo2.png",
+      "bytes": 166997,
+      "sha256": "9e8dc97e5552600fab75e3d158e60812e26371e5096e8be68d1563795dc88aa7",
+      "mode": 436,
+      "parts": []
+    }
+  ],
+  "excluded": [
+    {
+      "path": ".env",
+      "reason": "sensitive_or_runtime_filename"
+    },
+    {
+      "path": "chat_history.txt",
+      "reason": "sensitive_or_runtime_filename"
+    },
+    {
+      "path": "credentials.env",
+      "reason": "sensitive_or_runtime_filename"
+    },
+    {
+      "path": "creds.cfg",
+      "reason": "sensitive_or_runtime_filename"
+    },
+    {
+      "path": "models/fingpt-forecaster_llama2-7b.gguf",
+      "reason": "downloaded_model_weights_not_git_payload"
+    },
+    {
+      "path": "models/llama-2-7b-chat.Q4_K_M.gguf",
+      "reason": "downloaded_model_weights_not_git_payload"
+    },
+    {
+      "path": "db/chroma.sqlite3",
+      "reason": "sensitive_or_runtime_filename"
+    }
+  ],
+  "excluded_directories": [
+    "venv",
+    "__pycache__",
+    "scripts/__pycache__"
+  ]
+}
